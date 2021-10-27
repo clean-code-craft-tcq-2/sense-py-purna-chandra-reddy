@@ -6,4 +6,4 @@ This project uses the
 [unittest framework](https://docs.python.org/3/library/unittest.html)
 to test functionality.
 
-Write source code and Tcs for the SENSE.PY project
+Written source code and Tcs for the SENSE.PY project
