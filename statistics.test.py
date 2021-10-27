@@ -1,8 +1,6 @@
 import unittest
 import statistics ; from statistics import *
 from math import isnan
-
-
 class StatsTest(unittest.TestCase):
     def test_report_min_max_avg(self):
         computedStats = statistics.calculateStats([1.5, 8.9, 3.2, 4.5])
@@ -25,7 +23,6 @@ class StatsTest(unittest.TestCase):
         statsAlerter.checkAndAlert([22.6, 12.5, 3.7])
         self.assertTrue(emailAlert.emailSent)
         self.assertTrue(ledAlert.ledGlows)
-
 
 if __name__ == "__main__":
     unittest.main()
